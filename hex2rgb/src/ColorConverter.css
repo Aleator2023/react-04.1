@@ -1,0 +1,32 @@
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  .input-box, .output-box, .error-box {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .input-box input {
+    padding: 10px;
+    font-size: 16px;
+    width: 90%;
+  }
+  
+  .error-box {
+    border-color: red;
+    color: red;
+  }
+  
+  .output-box {
+    border-color: green;
+  }
+  
