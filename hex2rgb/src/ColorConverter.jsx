@@ -25,7 +25,7 @@ const ColorConverter = () => {
         setError('');
       } else {
         setError('Ошибка: Неправильный HEX код');
-        setBackgroundColor('white');
+        setBackgroundColor('red');
       }
     } else {
       setError('');
